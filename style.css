@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* navbar */
+
+.navbar-search {
+  max-width: 60px;
+  transition: max-width 0.5s ease-in-out;
+}
+.navbar-search:focus {
+  max-width: 100px;
+  outline: 0;
+  border: 1px solid #ddd;
+}
+.call,
+.mail {
+  font-size: 12px;
+}
+@media screen and (min-width: 575px) {
+  .call,
+  .mail,
+  .search-wrp,
+  .account-wrp,
+  .wishlist-wrp,
+  .dropdown-wrp .btn {
+    font-size: 12px;
+  }
+}
+
+/* header */
+
+.main-header-menu {
+  background-color: #419966;
+}
+
+.banner-cnt {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 200px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.banner-subtxt{
+    font-size:14px;
+}
+
+.banner-title {
+  font-size: 20px;
+}
+
+.banner-img {
+  height: 200px;
+}
+
+@media screen and (min-width: 575px) {
+  .banner-img {
+    height: auto;
+  }
+  .banner-subtxt{
+    font-size:16px;
+  }
+  .banner-cnt {
+    top: 50%;
+    transform: translateY(-60%);
+    width: unset;
+    left: unset;
+    right: 40%;
+    transform: translateY(-60%);
+    background-color: transparent;
+  }
+  .banner-title {
+    font-size: 36px;
+  }
+}
+
+/* gallery */
+.gallery-txt {
+  color: #4a5a67;
+}
+.gallery-title,
+.gallery-member {
+  color: #409965;
+}
+.gallery-title {
+  font-size: 24px;
+}
+.gallery-title-cover {
+  color: #435461;
+}
+.gallery-link {
+  font-size: 12px;
+}
+.gallery-btn-book {
+  background-color: #787181;
+  border-radius: 50px;
+}
+.gallery-wrap img:hover{
+    transform:scale(1.2);
+    transition: transform .5s ease-in-out;
+}
+
+/* membership */
+.point1 {
+  border: 2px solid #435660;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #435660;
+}
+.membership-plan {
+  font-size: 12px;
+}
+.membership-link {
+  color: #439a68;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.membership-icon{
+    font-size:24px;
+}
+
+/* family helps */
+.family-helps {
+  background-color: #f8f6f7;
+}
+.family-main {
+  font-size: 15px;
+}
+.family-txt {
+  font-size: 12px;
+}
+
+/* testimonial */
+
+.testimonial-subtxt {
+  color: #76bb67;
+  font-size: 16px;
+}
+.testimonial-review {
+  max-width: 100%;
+}
+.testimonial-main .slick-dots li button:before {
+  font-size: 14px;
+  color: #dedfe3;
+  opacity: 1;
+}
+.testimonial-main .slick-dots li.slick-active button:before {
+  font-size: 16px;
+  color: #697c8a;
+}
+.testimonial-main .slick-dots {
+  bottom: -50px;
+}
+.user-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+@media screen and (min-width: 575px) {
+  .testimonial-review {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/* being worth */
+
+.being-comment-btn {
+  background-color: #47b877;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+/* footer */
+
+.main-footer-wrap {
+  background-color: #445461;
+}
+.footer-copyright {
+  background-color: #419966;
+}
+.footer-txt,
+.footer-links,
+.footer-address,
+.copyright-txt {
+  font-size: 13px;
+}
